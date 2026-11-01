@@ -1,0 +1,71 @@
+{
+  "parameterSchema": {
+    "width": {
+      "type": "number",
+      "default": 1.1,
+      "min": 0.95,
+      "max": 1.6,
+      "description": "overall cabinet width in meters",
+      "unit": "m",
+      "step": 0.001
+    },
+    "depth": {
+      "type": "number",
+      "default": 0.48,
+      "min": 0.42,
+      "max": 0.85,
+      "description": "carcass depth in meters",
+      "unit": "m",
+      "step": 0.001
+    },
+    "height": {
+      "type": "number",
+      "default": 2.2,
+      "min": 1.8,
+      "max": 2.6,
+      "description": "carcass height in meters",
+      "unit": "m",
+      "step": 0.001
+    },
+    "plinth_height": {
+      "type": "number",
+      "default": 0.035,
+      "min": 0.025,
+      "max": 0.14,
+      "description": "bottom plinth height",
+      "unit": "m",
+      "step": 0.001
+    },
+    "mirror_height": {
+      "type": "number",
+      "default": 1.35,
+      "min": 0.7,
+      "max": 1.45,
+      "description": "mirror inset height, bounded by door opening",
+      "unit": "m",
+      "step": 0.001
+    },
+    "door_gap": {
+      "type": "number",
+      "default": 0.004,
+      "min": 0.003,
+      "max": 0.012,
+      "description": "door reveal",
+      "unit": "m",
+      "step": 0.001
+    },
+    "bevel": {
+      "type": "number",
+      "default": 0.0015,
+      "min": 0.0005,
+      "max": 0.004,
+      "description": "panel edge radius",
+      "unit": "m",
+      "step": 0.001
+    }
+  },
+  "availableStates": [
+    "closed",
+    "open"
+  ]
+}
